@@ -1,15 +1,15 @@
 import * as React from "react";
 import {StyleSheet, TouchableOpacity, View} from "react-native";
-import {Entypo, AntDesign } from "@expo/vector-icons";
+import {Feather} from "@expo/vector-icons";
 
-export default function Checkbox({id, text, isCompleted, isToday, hour}) {
+export default function Checkbox({id, text, isCompleted,isToday, hour}) {
     return isToday ? (
         <TouchableOpacity style={isCompleted ? styles.checked : styles.uncheck}>
-            {isCompleted && <Entypo name="check" size={16} color="#FAFAFA"/>}
+            {isCompleted && <Feather name="check" size={19} color="#fff"/>}
         </TouchableOpacity>
     ) : (
         <View style={styles.isToday}>
-            <AntDesign name="hourglass" size={24} color="black" />
+            <Feather name="clock" size={20} color="#252525" />
         </View>
     );
 }
@@ -17,26 +17,19 @@ export default function Checkbox({id, text, isCompleted, isToday, hour}) {
 const styles = StyleSheet.create({
     checked: {
         width: 20,
-        height: 20,
+        height: 21,
         marginRight: 13,
         borderRadius: 6,
-        backgroundColor: "#262626",
+        backgroundColor: "#72767a",
         alignItems: "center",
         justifyContent: "center",
         marginLeft: 15,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.3,
-        shadowRadius: 5,
         elevation: 5,
     },
 
     uncheck: {
         width: 20,
-        height: 20,
+        height: 21,
         marginRight: 13,
         borderWidth: 2,
         borderColor: "#E8E8E8",
@@ -46,23 +39,14 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         marginLeft: 15,
         shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: 0.3,
-        shadowRadius: 5,
-        elevation: 5,
     },
+
     isToday: {
-        width: 10,
-        height: 10,
+        width: 20,
+        height: 21,
         marginHorizontal: 10,
+        borderRadius: 10,
         marginRight: 13,
         marginLeft: 15,
-        content: 'pending'
     },
-    textPending:{
-        marginRight: 10
-    }
 });
