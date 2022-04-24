@@ -16,13 +16,13 @@ export default function Todo({id, text, isCompleted, isToday, hour}) {
                 <Text
                     style={isCompleted ?
                         [styles.text, {textDecorationLine: 'line-through', color: '#73737330'}]
-                        : [styles.text, {textDecorationLine: 'line-through', color: '#73737330'}]}>
+                        : [styles.text]}>
                     {text}
                 </Text>
                 <Text
                     style={isCompleted ?
                         [styles.time, {textDecorationLine: 'line-through', color: '#73737330'}]
-                        : [styles.time, {textDecorationLine: 'line-through', color: '#73737330'}]}>
+                        : [styles.time, {color: '#72767a'}]}>
                     {hour}
                 </Text>
             </View>
