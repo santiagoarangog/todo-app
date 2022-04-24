@@ -17,7 +17,7 @@ const todosData = [
     id: 3,
     text: "Crear repositorio de GitHub",
     isCompleted: false,
-    isToday: false,
+    isToday: true,
     hour: "12:00",
   },
   {
@@ -30,6 +30,13 @@ const todosData = [
   {
     id: 5,
     text: "Modificar el Readme",
+    isCompleted: false,
+    isToday: false,
+    hour: "12:00",
+  },
+  {
+    id: 6,
+    text: "Subir archivos a GitHub",
     isCompleted: false,
     isToday: false,
     hour: "12:00",
