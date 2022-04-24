@@ -10,7 +10,7 @@ const todosData = [
     id: 2,
     text: "Ejecutar expo init {nombre_de_mi_proyecto}",
     isCompleted: false,
-    isToday: false,
+    isToday: true,
     hour: "12:00",
   },
   {
