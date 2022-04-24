@@ -18,6 +18,7 @@ export default function App() {
                 <Stack.Screen
                     name="Add"
                     component={AddTask}
+                    options={{presentation:'modal'}}
                 />
             </Stack.Navigator>
         </NavigationContainer>
