@@ -21,11 +21,10 @@ export default function Home() {
         if (isHidden) {
             setIsHidden(false)
             setLocalData(data)
-        }else{
-            setIsHidden(!isHidden)
-            setLocalData(localData.filter(todo => !todo.isCompleted))
+            return
         }
-
+        setIsHidden(!isHidden)
+        setLocalData(localData.filter(todo => !todo.isCompleted))
     }
 
     return (
