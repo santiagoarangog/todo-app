@@ -1,17 +1,7 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import TodoList from "./components/TodoList";
+import Home from "./screens/Home";
 
 export default function App() {
   return (
-    <View style={style.container}>
-      <TodoList></TodoList>
-    </View>
+    <Home/>
   );
 }
-
-const style = StyleSheet.create({
-  container: {
-    backgroundColor: "#0000",
-  },
-});
