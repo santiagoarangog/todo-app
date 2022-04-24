@@ -1,15 +1,17 @@
 import * as React from "react";
 import {StyleSheet, TouchableOpacity, View} from "react-native";
-import {Entypo} from "@expo/vector-icons";
+import {Entypo, AntDesign } from "@expo/vector-icons";
 
 export default function Checkbox({id, text, isCompleted, isToday, hour}) {
-    return isToday ?(
+    return isToday ? (
         <TouchableOpacity style={isCompleted ? styles.checked : styles.uncheck}>
             {isCompleted && <Entypo name="check" size={16} color="#FAFAFA"/>}
         </TouchableOpacity>
-    ):(
-        <View style={styles.isToday}/>
-  );
+    ) : (
+        <View style={styles.isToday}>
+            <AntDesign name="hourglass" size={24} color="black" />
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
@@ -56,9 +58,11 @@ const styles = StyleSheet.create({
         width: 10,
         height: 10,
         marginHorizontal: 10,
-        borderRadius: 10,
-        backgroundColor: '#262626',
         marginRight: 13,
-        marginLeft: 15
+        marginLeft: 15,
+        content: 'pending'
+    },
+    textPending:{
+        marginRight: 10
     }
 });
