@@ -41,6 +41,20 @@ const todosData = [
     isToday: false,
     hour: "12:00",
   },
+  {
+    id: 7,
+    text: "Finalizar vista de add task",
+    isCompleted: false,
+    isToday: true,
+    hour: "13:00",
+  },
+  {
+    id: 8,
+    text: "Crear tag v0.1.1",
+    isCompleted: false,
+    isToday: true,
+    hour: "13:00",
+  },
 ];
 
 module.exports = { todosData };
