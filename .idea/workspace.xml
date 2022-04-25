@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16ab9a85-6c54-4bd0-8608-25c12f0d39a6" name="Changes" comment="Fix modify favicon" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="28DqUS1wuN4EKTNAL1VZ6AgA6tY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\projects\minimalist-to-do-app\assets\repo" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16ab9a85-6c54-4bd0-8608-25c12f0d39a6" name="Changes" comment="" />
+      <created>1650761521975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650761521975</updated>
+      <workItem from="1650761524606" duration="55000" />
+      <workItem from="1650761608999" duration="21225000" />
+      <workItem from="1650824953405" duration="159000" />
+      <workItem from="1650825500924" duration="35000" />
+      <workItem from="1650825537934" duration="1093000" />
+      <workItem from="1650831865578" duration="4292000" />
+      <workItem from="1650837305545" duration="948000" />
+      <workItem from="1650894388495" duration="635000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add readme for application">
+      <created>1650763481889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650763481889</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modify readme">
+      <created>1650763754429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650763754429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add two cover">
+      <created>1650764725341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650764725341</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add validations in checkbox">
+      <created>1650767862848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650767862848</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add AntDesign icons and validations task not today">
+      <created>1650769489273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650769489273</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add screen Home">
+      <created>1650817128713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650817128713</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix screen Home">
+      <created>1650817157000</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650817157000</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modify icons in Checkbox component">
+      <created>1650817197760</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650817197760</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix task not completed">
+      <created>1650817244006</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650817244006</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix todos data in todo list">
+      <created>1650817324989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650817324989</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add useState for sort task completed">
+      <created>1650817670482</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650817670482</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add hide completed or show completed">
+      <created>1650818822556</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650818822556</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fix handleHidePress">
+      <created>1650818852893</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650818852893</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add navigation">
+      <created>1650831883992</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650831883992</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add navigation to Home component">
+      <created>1650832419750</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650832419750</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add component Add Task screen">
+      <created>1650833372456</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650833372456</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix presentation for screen AddTask to modal">
+      <created>1650833600105</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650833600105</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add datetimepicker dependency">
+      <created>1650833830045</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650833830045</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add content in screen add task">
+      <created>1650837345030</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650837345030</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fix modify favicon">
+      <created>1650838208375</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650838208375</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add readme for application" />
+    <MESSAGE value="Modify readme" />
+    <MESSAGE value="Add two cover" />
+    <MESSAGE value="Add validations in checkbox" />
+    <MESSAGE value="Add AntDesign icons and validations task not today" />
+    <MESSAGE value="Add screen Home" />
+    <MESSAGE value="Fix screen Home" />
+    <MESSAGE value="Modify icons in Checkbox component" />
+    <MESSAGE value="Fix task not completed" />
+    <MESSAGE value="Fix todos data in todo list" />
+    <MESSAGE value="Add useState for sort task completed" />
+    <MESSAGE value="Add hide completed or show completed" />
+    <MESSAGE value="Fix handleHidePress" />
+    <MESSAGE value="Add navigation" />
+    <MESSAGE value="Add navigation to Home component" />
+    <MESSAGE value="Add component Add Task screen" />
+    <MESSAGE value="Fix presentation for screen AddTask to modal" />
+    <MESSAGE value="Add datetimepicker dependency" />
+    <MESSAGE value="Add content in screen add task" />
+    <MESSAGE value="Fix modify favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix modify favicon" />
+  </component>
+</project>
