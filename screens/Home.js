@@ -3,7 +3,7 @@ import {Image, StyleSheet, Text, TouchableOpacity, View} from "react-native";
 import TodoList from "../components/TodoList";
 import {todosData} from "../data/todos";
 import {Feather} from "@expo/vector-icons";
-import {useNavigation} from '@react-navigation/native'
+import {useNavigation} from "@react-navigation/native";
 
 export default function Home() {
     const [isSortStart, setIsSort] = React.useState(false);
@@ -38,16 +38,21 @@ export default function Home() {
         setLocalData(localData.filter((todo) => !todo.isCompleted));
     };
 
-    const navigation = useNavigation()
+    const navigation = useNavigation();
 
     return (
         <View style={styles.container}>
-            <Image
-                source={{
-                    uri: "https://media-exp1.licdn.com/dms/image/C5603AQG_q5BWShIb_A/profile-displayphoto-shrink_200_200/0/1611847931174?e=1656547200&v=beta&t=C3OdfY3H4eY3g-72ZLvJannpRiJlhbd9uh6FfoUHVGQ",
-                }}
-                style={styles.pic}
-            />
+            <TouchableOpacity onPress={() => {
+                navigation.navigate('Profile')
+            }}>
+                <Image
+                    source={{
+                        uri: "https://media-exp1.licdn.com/dms/image/C5603AQG_q5BWShIb_A/profile-displayphoto-shrink_200_200/0/1611847931174?e=1656547200&v=beta&t=C3OdfY3H4eY3g-72ZLvJannpRiJlhbd9uh6FfoUHVGQ",
+                    }}
+                    style={styles.pic}
+
+                />
+            </TouchableOpacity>
             <View
                 style={{
                     flexDirection: "row",
@@ -87,8 +92,11 @@ export default function Home() {
                 <Feather name="chevron-right" size={24} color="black"/> Tomorrow
             </Text>
             <TodoList todosData={localData.filter((item) => !item.isToday)}/>
-            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Add")}>
-                <Feather name="plus" size={40} color="#3478f6"/>
+            <TouchableOpacity
+                style={styles.button}
+                onPress={() => navigation.navigate("Add")}
+            >
+                <Feather name="plus" size={41} color="#fff"/>
             </TouchableOpacity>
         </View>
     );
@@ -98,7 +106,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         paddingHorizontal: 15,
-        paddingTop: 40
+        paddingTop: 40,
     },
     pic: {
         width: 42,
@@ -127,8 +135,8 @@ const styles = StyleSheet.create({
             height: 2,
         },
         shadowOpacity: 0.5,
-        shadowRadius: 5,
-        elevation: 5,
+        shadowRadius: 15,
+        elevation: 10,
     },
 
     plus: {

@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     borderBottomColor: "#00000030",
     borderBottomWidth: 1,
     width: "80%",
+    fontSize: 20,
   },
   inputContainer: {
     justifyContent: "space-between",
