@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16ab9a85-6c54-4bd0-8608-25c12f0d39a6" name="Changes" comment="Add store for redux and provider">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Checkbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/todosSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/todosSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/AddTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/AddTask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +69,9 @@
       <workItem from="1651114193691" duration="2225000" />
       <workItem from="1651116618196" duration="80000" />
       <workItem from="1651117304494" duration="312000" />
-      <workItem from="1651591406900" duration="595000" />
+      <workItem from="1651591406900" duration="1084000" />
+      <workItem from="1651673326697" duration="227000" />
+      <workItem from="1651803489919" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Add readme for application">
       <created>1650763481889</created>
