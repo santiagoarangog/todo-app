@@ -1,19 +1,19 @@
 <h3 align="center">Welcome back! 👋🏼</h3>
 <img align="center" src="https://raw.githubusercontent.com/santiagoarangog/todo-app/master/assets/repo/santiago-arango-g-cover.jpg"/>
 
-<h2 align="center" style="font-weight:bold;">Todo App / List task </h2>
-<h6 align="center">For <span style="font-weight:bold;">Santiago Arango</span> in React Native with Expo</h6>
+<h2 align="center"><b>Todo App / List task </b></h2>
+<h6 align="center">For <b>Santiago Arango</b> in React Native with Expo</h6>
 
-<p><span style="font-weight:bold;">Platforms :</span> 👨‍💻 / 📱</p>
-<p><span style="font-weight:bold;">Skill :</span> Frontend  </p>
+<p><b>Platforms :</b> 👨‍💻 / 📱</p>
+<p><b>Skill :</b> Frontend  </p>
 
-<hr style="width:50%;">
+<hr width="50" style="width:50%;">
 
 <p>This app is used for list activities for today or tomorrow is oriented to be minimalist and easy used</p>
 
-<h3 align="center" style="font-weight:bold;">Content</h3>
+<h3 align="center"><b>Content</b></h3>
 
-<hr style="width:50%;">
+<hr width="50" style="width:50%;">
 
 [1. Configure Development Entorn](#1-configure-development-entorn)
 
