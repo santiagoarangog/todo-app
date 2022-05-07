@@ -1,26 +1,23 @@
-import {
-  Text,
-  Image,
-  View,
-  StyleSheet,
-  TouchableOpacity,
-  Dimensions,
-} from "react-native";
+import { Text, Image, View, StyleSheet, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { globalStyles } from "../styles/global";
 
 export default function Onboarding() {
   const navigation = useNavigation();
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Welcome to Task App for Santiago Arango</Text>
+    <View style={globalStyles.container}>
+      <Text style={globalStyles.title}>
+        Welcome to <Text style={globalStyles.fontColor}>Task App</Text> for
+        Santiago Arango
+      </Text>
       <View style={styles.featureContainer}>
         <Image style={styles.icon} source={require("../assets/arrows.png")} />
         <View style={{ flex: 1 }}>
-          <Text style={styles.subTitle}>Manage Daily Tasks</Text>
+          <Text style={globalStyles.subTitle}>Manage Daily Tasks</Text>
           <Text style={styles.subHeadline}>
-            Task App is a simple app that helps you to increase your
-            productivity.
+            <Text style={{ color: "#00f2a9" }}>Task App</Text> is a simple app
+            that helps you to increase your productivity.
           </Text>
         </View>
       </View>
@@ -45,34 +42,15 @@ export default function Onboarding() {
       </View>
       <TouchableOpacity
         onPress={() => navigation.navigate("Home")}
-        style={styles.button}
+        style={globalStyles.button}
       >
-        <Text style={[styles.subTitle, { color: "#fff" }]}>Continue</Text>
+        <Text style={[globalStyles.subTitle, { color: "#000" }]}>Continue</Text>
       </TouchableOpacity>
     </View>
   );
 }
 
-const iphoneHeight = Dimensions.get("window").height;
-
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "flex-start",
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: "bold",
-    marginBottom: iphoneHeight > 800 ? 70 : 50,
-    marginTop: 100,
-  },
-  subTitle: {
-    fontSize: 15,
-    fontWeight: "600",
-    lineHeight: 22,
-  },
   subHeadline: {
     fontSize: 15,
     fontWeight: "400",
@@ -90,17 +68,5 @@ const styles = StyleSheet.create({
     height: 42,
     marginRight: 20,
     resizeMode: "contain",
-  },
-  button: {
-    // backgroundColor: '#007AFF',
-    backgroundColor: "#000000",
-    height: 50,
-    alignItems: "center",
-    justifyContent: "center",
-    width: "90%",
-    borderRadius: 12,
-    marginTop: 100,
-    position: "absolute",
-    bottom: iphoneHeight > 800 ? 90 : 30,
   },
 });
