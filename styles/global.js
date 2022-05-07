@@ -10,14 +10,23 @@ export const globalStyles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "flex-start",
   },
-  fontColor: {
+  primaryColor: {
     color: "#00f2a9",
+  },
+  secondaryColor: {
+    color: "#00f2a9",
+  },
+  titleOnboarding: {
+    fontSize: 32,
+    fontWeight: "bold",
+    marginBottom: iphoneHeight > 800 ? 70 : 50,
+    marginTop: iphoneHeight > 800 ? 80 : 50,
   },
   title: {
     fontSize: 32,
     fontWeight: "bold",
     marginBottom: iphoneHeight > 800 ? 70 : 50,
-    marginTop: 100,
+    marginTop: iphoneHeight > 800 ? 5 : 50,
   },
   subTitle: {
     fontSize: 15,

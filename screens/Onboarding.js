@@ -7,8 +7,8 @@ export default function Onboarding() {
 
   return (
     <View style={globalStyles.container}>
-      <Text style={globalStyles.title}>
-        Welcome to <Text style={globalStyles.fontColor}>Task App</Text> for
+      <Text style={globalStyles.titleOnboarding}>
+        Welcome to <Text style={globalStyles.primaryColor}>Task App</Text> for
         Santiago Arango
       </Text>
       <View style={styles.featureContainer}>

@@ -5,7 +5,8 @@ import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { setTodosReducer } from "../redux/todosSlice";
+import { hideComplitedReducer, setTodosReducer } from "../redux/todosSlice";
+import { globalStyles } from "../styles/global";
 
 export default function Home() {
   const [isSortStart, setIsSort] = React.useState(false);
@@ -38,14 +39,17 @@ export default function Home() {
 
   const [localData, setLocalData] = React.useState(todos);
 
-  const handleHidePress = () => {
+  const handleHidePress = async () => {
     if (isHidden) {
       setIsHidden(false);
-      setLocalData(todos);
+      const todos = await AsyncStorage.getItem("@Todos");
+      if (todos != null) {
+        dispatch(setTodosReducer(JSON.parse(todos)));
+      }
       return;
     }
     setIsHidden(!isHidden);
-    setLocalData(todos.filter((todo) => !todo.isCompleted));
+    dispatch(hideComplitedReducer());
   };
 
   return (
@@ -69,8 +73,13 @@ export default function Home() {
           justifyContent: "space-between",
         }}
       >
-        <Text style={styles.title}>
-          <Feather name="chevron-right" size={24} color="black" /> Today
+        <Text style={[globalStyles.title, globalStyles.fontColor]}>
+          <Feather
+            name="chevron-right"
+            size={24}
+            color={globalStyles.fontColor}
+          />{" "}
+          Today
         </Text>
         {isHidden ? (
           <Text />
@@ -86,10 +95,12 @@ export default function Home() {
 
         <TouchableOpacity onPress={handleHidePress}>
           <Text
-            style={{
-              color: "#3478f6",
-              fontWeight: "bold",
-            }}
+            style={[
+              globalStyles.primaryColor,
+              {
+                fontWeight: "bold",
+              },
+            ]}
           >
             {isHidden ? "Show completed" : "Hide completed"}
           </Text>

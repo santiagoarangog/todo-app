@@ -36,7 +36,6 @@ export default function AddTask() {
         JSON.stringify([...listTodos, newTodo])
       );
       dispatch(addTodoReducer(newTodo));
-      console.log("Save todo correctly");
       navigation.goBack();
     } catch (e) {
       console.log(e);
